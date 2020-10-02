@@ -5,7 +5,6 @@ import { Container, Row } from "react-bootstrap";
 
 function Portfolio() {
   return (
-
     <Container>
       <Row>
         <PortfolioCard

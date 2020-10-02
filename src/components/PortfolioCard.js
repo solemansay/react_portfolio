@@ -3,7 +3,7 @@ import React from "react";
 
 function PortfolioCard(props) {
   return (
-    <div className="mt-5 mx-4" id="moviemargin">
+    <div className="mt-5" id="moviemargin">
       <div className="col-3">
         <div id="f1_container">
           <div id="f1_card" className="shadow">
