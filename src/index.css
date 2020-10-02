@@ -51,28 +51,15 @@ body {
   background-color: #282e34;
 }
 
-/* .is-active {
-  transition-duration: 1s;
-} 
-
-/* .placement {
-  position: fixed;
-  top: 6%;
-  left: 7%;
-  transform: translate(-50%, -50%);
-} */
-
 .watchP {
   margin-top: 6%;
 }
 
-.cardContainer{
-  position: absolute;
-  left: 8%;
-}
-
 /* ==================================================================footer================================================================== */
-
+.col-sm-4{
+  display: flex;
+  justify-content:  center;
+}
 #footer {
   position: absolute;
   bottom: 0;
@@ -86,9 +73,23 @@ body {
   color: black!important;
 }
 
-
 /* ====================================================================contact=========================================================================== */
 
 .contactform {
   color: black !important;
+}
+
+
+/* =======================================================================header============================================================================ */
+
+.headerLink{
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.headerLink:hover{
+  text-decoration: none;
+  color: rgb(218, 207, 207);
 }
