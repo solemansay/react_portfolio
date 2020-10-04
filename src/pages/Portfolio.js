@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import PortfolioCard from "../components/PortfolioCard";
 import { Row, Col } from "react-bootstrap";
 
