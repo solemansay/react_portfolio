@@ -2,7 +2,7 @@ import React from "react";
 
 function PortfolioCard(props) {
   return (
-    <div className="mx-4 float-left" id="moviemargin">
+    <div className="mx-4" id="moviemargin">
       <div id="f1_container">
         <div id="f1_card" className="shadow">
           <div className="front face">

@@ -10,7 +10,7 @@ function AboutMe() {
         <div className="row ">
           <article className="col-sm-12">
             <img
-              src="assets/photos/Profile_pic.jpg"
+              src="./photos/Profile_pic.jpg"
               className="float-left mr-3"
               alt="Soleman"
               width="200"

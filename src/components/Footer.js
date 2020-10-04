@@ -3,9 +3,9 @@ import {} from "react-bootstrap";
 
 function Footer() {
   return (
-    <div>
-      <footer id="footer"></footer>
-    </div>
+    <footer className="text-white mt-3 mb-0 p-3">
+      <p className="text-center">copyright &#169;</p>
+    </footer>
   );
 }
 

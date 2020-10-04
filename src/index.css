@@ -14,7 +14,6 @@ body {
 }
 
 #f1_container {
-  position: relative;
   margin: 10px auto;
   width: 380px;
   height: 230px;
@@ -51,10 +50,26 @@ body {
   background-color: #282e34;
 }
 
+/* .is-active {
+  transition-duration: 1s;
+} 
+
+/* .placement {
+  position: fixed;
+  top: 6%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+} */
+
 .watchP {
   margin-top: 6%;
 }
 
+/* .cardContainer{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+} */
 /* ==================================================================footer================================================================== */
 .col-sm-4{
   display: flex;
@@ -72,6 +87,7 @@ body {
 .writeUpCard {
   color: black!important;
 }
+
 
 /* ====================================================================contact=========================================================================== */
 
@@ -92,4 +108,8 @@ body {
 .headerLink:hover{
   text-decoration: none;
   color: rgb(218, 207, 207);
+}
+
+.dropDownItem{
+  color: rgb(54, 52, 52)!important;
 }
