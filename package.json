@@ -1,7 +1,6 @@
 {
   "name": "react_portfolio",
   "version": "0.1.0",
-  "homepage": "https://solemansay.github.io/react_portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
