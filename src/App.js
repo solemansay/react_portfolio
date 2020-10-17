@@ -3,9 +3,9 @@ import Header from "./components/Header"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer"
-import AboutMe from "./pages/AboutMe"
-import Contact from "./pages/Contact"
-import Portfolio from "./pages/Portfolio"
+import AboutMe from "./pages/AboutMe/AboutMe"
+import Contact from "./pages/Contact/Contact"
+import Portfolio from "./pages/Portfolio/Portfolio"
 
 
 function App() {

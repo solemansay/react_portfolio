@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Resume from "../assets/resume.pdf"
 
 
 function Header() {
@@ -15,11 +16,11 @@ return (
       <Nav.Link><Link className="headerLink" to="/projects">Portfolio</Link></Nav.Link>
 
       <NavDropdown title="My Info" id="basic-nav-dropdown">
-        <Nav.Link className="dropDownItem ml-4" target="_blank" href="https://www.linkedin.com/in/soleman-sayeed-998488177/">My LinkedIn</Nav.Link>  
-        <Nav.Link className="dropDownItem ml-4" target="_blank" href="https://github.com/solemansay"> My Github</Nav.Link>  
+        <Nav.Link className="dropDownItem ml-4" target="_blank" href="https://www.linkedin.com/in/soleman-sayeed-998488177/">My Linked<i class="fa fa-linkedin" aria-hidden="true"></i></Nav.Link>  
+        <Nav.Link className="dropDownItem ml-4" target="_blank" href="https://github.com/solemansay">My Github <i class="fa fa-github" aria-hidden="true"></i> </Nav.Link>  
         
         <NavDropdown.Divider />
-        <NavDropdown.Item href="./assets/resume.pdf">My Resume</NavDropdown.Item>
+        <NavDropdown.Item href= {Resume}><i class="fa fa-file" aria-hidden="true"></i> My Resume</NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>

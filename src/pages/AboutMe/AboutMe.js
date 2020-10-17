@@ -1,15 +1,16 @@
 import React from "react";
-import WriteUp from "../components/WriteUp";
+import WriteUp from "../../components/WriteUp";
+import Profile from "../../assets/photos/Profile_pic.jpg"
 
 
 function AboutMe() {
   return (
       <div className="col-10.5 col-md-5 col-lg-5 container card bg-light mt-4 mb-4 p-4 writeUpCard">
-        <h1 className="text-center">About Me</h1>
+        <h1 className="text-center mb-4">About Me</h1>
         <div className="row ">
           <article className="col-sm-12">
             <img
-              src="./photos/Profile_pic.jpg"
+              src= {Profile}
               className="float-left mr-3"
               alt="Soleman"
               width="200"
